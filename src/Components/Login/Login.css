@@ -1,0 +1,108 @@
+.loginwrapper
+{
+  height: 90vh;
+  width: 100%;
+  background-color: #ddd;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+.login
+{
+height: 90%;
+width: 400px;
+background-color: white;
+box-shadow: 10px 3px 83px 0px rgba(0,0,0,0.55);
+-webkit-box-shadow: 10px 3px 83px 0px rgba(0,0,0,0.55);
+-moz-box-shadow: 10px 3px 83px 0px rgba(0,0,0,0.55);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.login h2
+{
+    margin: 5px;
+}
+
+
+
+.champ
+{
+    height: 50px;
+    width: 300px;
+    outline: none;    
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+}
+
+.champ>input
+{
+    height: 30px;
+    width: 250px;
+    margin-left: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 1.1em;
+
+}
+
+.signbtn
+{
+    width: 150px;
+    border-radius: 50px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: .1s;
+}
+
+.signbtn:hover
+{
+    background-color: rgba(37, 37, 37, 0.356);
+}
+
+.facebookLog
+{
+    background-color: #4267B2;
+    border-radius: 50px;
+    margin: 10px;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.googleLog
+{
+    background-color: #DB4437;
+    border-radius: 50px;
+    margin: 10px;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+
+
+}
+.googleLog:hover
+{
+    background-color: #a0362c;
+
+}
+.facebookLog:hover
+{
+    background-color: #2d529c;
+
+}
+
+.social-icons
+{
+    margin: 5px;
+}
+

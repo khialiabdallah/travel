@@ -1,0 +1,110 @@
+.navbar
+{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}
+.navWrapper
+{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+    
+}
+
+
+.options
+{
+    height: 100%;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navBtn
+{
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+    
+   
+    
+}
+.navBtn:hover
+{
+    border: 2px solid  rgba(16, 16, 212, 0.774);
+    ;
+    
+}
+
+.nav-option
+{
+    padding:5px ;
+    transform: translateY(-2px);
+}
+
+.inscriptionBtn
+{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #000;
+border-color: transparent;
+color: #fff;
+width: 120px;
+height: 35px;
+border-radius: 50px;
+transition: .1s;
+cursor: pointer;
+
+}
+.loginBtn
+{
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+border-color: transparent;
+color: rgba(16, 16, 212, 0.774);
+
+height: 35px;
+width: 150px;
+transition: .5s;
+cursor: pointer;
+
+
+}
+.loginBtn:hover,
+.inscriptionBtn:hover
+{
+ background-color: rgba(16, 16, 212, 0.774);
+    color:  #fff;
+    ;
+}

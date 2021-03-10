@@ -1,0 +1,19 @@
+.optionCardContainer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 1px;
+  height: 25vh;
+
+}
+.optionCardWrapper
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 200px;
+
+}

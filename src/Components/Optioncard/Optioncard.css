@@ -1,0 +1,26 @@
+.optionCard
+{
+    height: 100px;
+    min-width: 180px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgba(16, 16, 212, 0.774);
+    transition: .3s;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.optionCard>h4
+{
+    padding-left: 20px;
+}
+
+.optionCard:hover 
+{
+  background-color: rgba(16, 16, 212, 0.774);
+
+    color: #141414;
+   
+}
