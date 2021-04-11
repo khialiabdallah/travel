@@ -1,0 +1,100 @@
+
+.container
+{
+    height: 100vh;
+ 
+   
+}
+
+
+.content
+{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+#welcome
+{
+    height: 80px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-size: 5em;
+   
+   
+}
+
+.searchPanel
+{
+    background-color: rgba(238, 238, 238, 0.3);
+    height: 200px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sp2
+{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #333;
+}
+ .sp2input
+ {
+    height: 45px;
+    width: 250px;
+    background-color: none;
+    outline: none;
+    border: none;    
+    color: #333;
+    background-color: white;
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+.sp2select
+
+    {
+    height: 45px;
+    width: 250px;
+    background-color: none;
+    outline: none;
+    border: none;    
+    color: #333;
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+
+
+.search
+{
+    cursor: pointer;
+    height: 45px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: none;
+    
+
+}
+.search:hover
+{
+    background-color: steelblue;
+    opacity: .9;
+    transition: .1s;
+}

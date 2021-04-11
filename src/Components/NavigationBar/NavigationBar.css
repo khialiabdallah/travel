@@ -1,0 +1,159 @@
+.navbar
+{
+    height: 30vh;
+
+}
+
+.nav1
+{
+    height: 75%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.starwarsimage
+{
+    /* background-image:url(https://static-mh.content.disney.io/starwars/assets/navigation/sw_logo_stacked-336c62367939.png);
+    background-image:url("./logo.png");
+     */
+    height: 80%;
+    width: 10%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto 0;
+    
+    
+}
+.nav1-1
+{
+    height: 100%;
+    width: 25%;
+  
+    
+}
+.iconsContainer
+{
+   
+    font-size: 25px;  
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.nav1-3
+{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+
+}
+
+
+
+.login-signup
+{
+    
+    width:180px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+    position: relative;
+   
+    left: 30px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    
+}
+.login-signup>a
+{
+text-decoration: none;
+color:#fff ;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.input-icon
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    width: 75%;
+    
+}
+
+.searchBtn
+{
+    height: 40px;
+    width: 225px;
+    background-color: #b1bfd8;
+    color: #fff;
+    padding-left: 15px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 5px;  
+    position: absolute;
+}
+.fisearch
+{
+    
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: 90px;
+}
+.nav2
+{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #eee;
+    
+    border-left: none;
+    border-right: none;
+    
+}
+
+
+
+.appbar
+{
+    width: 60%;
+    display: flex;
+    color: #fff;
+    
+
+}
+
+.appbar>li
+{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #eee;
+    border-top: none;
+
+}
+
+.appbar>li:last-child
+{
+    border-right: 1px solid #eee;
+
+}
+
+*{color: white;}
